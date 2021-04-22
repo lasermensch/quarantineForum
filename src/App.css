@@ -1,17 +1,74 @@
-.App {
-  text-align: center;
+body{
+  padding: 0;
+  margin: 0;
+  border-color: #36E800;
+  background-color: #56665F;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-size:5em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+ul{
+  list-style-type: none;
 }
+a:link{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+#root{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+article{
+  max-width: 50%;
+  margin: 0 auto;
+}
+button{
+ background-color: #6BB064;
+ color: black;
+ border-width: 1px;
+ border-color: black;
+ padding: 0;
+}
+section{
+  max-width: 50%;
+}
+form{
+  /* min-height: 10em; */
+  max-width: 5em;
+  float: none;
+}
+form input{
+  background-color: #465C41;
+  border-color: #36E800;
+  width: 100%;
+}
+form textarea{
+  background-color: #465C41;
+  border-color: #36E800;
+}
+#comments-section{
+  float: right;
+}
+.adding-section{
+  float: right;
+  text-align: left;
+}
+/* 
+Färger:
+highlight:#36E800 
+lowlight: #465C41
+bakgrund: #56665F
+fokus: #6BB064
+text: #DAE0D1
+*/
 
 .App-header {
   min-height: 100vh;
@@ -22,18 +79,4 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
-}
